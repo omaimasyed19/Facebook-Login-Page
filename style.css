@@ -1,0 +1,112 @@
+body {
+            font-family: Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: rgb(238, 247, 255);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            width: 100%;
+            max-width: 400px;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .language {
+            text-align: center;
+            color: #737373;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+        .logo {
+            width: 60px;
+            height: 60px;
+            background-color: #1877f2;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto 20px;
+            margin-top:60px;            margin-bottom:80px;
+            
+        }
+        .logo span {
+            color: white;
+            font-size: 60px;
+            font-weight: 800;
+            margin-top:22px;
+            font-family:Arial ;                   }
+        input {
+            width: 90%;
+            padding: 14px 16px;
+            margin-bottom: 12px;
+            border: 1px solid #dddfe2;
+            border-radius: 6px;
+            font-size: 17px;
+            color: #161818;
+            font-weight :400;           background-color: white;
+            height:24px;
+                    }
+        input::placeholder {
+            color:#6c7676;
+        }
+        .login-button {
+            background-color: #1877f2;
+            border: none;
+            border-radius: 50px;
+            font-size: 17px;
+            line-height: 48px;
+            padding: 0 16px;
+            width: 100%;
+            color: white;
+            margin-bottom: 16px;
+            height:45px;
+                    }
+        .forgot-password {
+            color: black;
+            font-size: 14px;
+            text-decoration: none;
+            display: block;
+            text-align: center;
+            margin-bottom: 130px;
+        }
+        .create-account {
+            background-color: transparent;
+            border: 1.2px solid #1877f2;
+            border-radius: 50px;
+            font-size: 17px;
+            line-height: 48px;
+            padding: 0 16px;
+            color: #1877f2;
+            font-weight: normal;
+            width: 100%;
+            margin-top: 16px;
+            height:45px;
+            display :flex ;
+            align-items :center ;
+            justify-content :center ;
+          }
+        .meta {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .meta-logo {
+            font-size: 24px;
+            color: #555d5d;
+        }
+        .meta-logo a{
+            font-size:20px;
+            font-weight :500 ;
+                   }      
+                     .links {
+            margin-top: 12px;
+            font-size: 12px;
+            color: #737373;
+        }
+        .links a {
+            color: #737373;
+            text-decoration: none;
+            margin: 0 5px;
+        }
